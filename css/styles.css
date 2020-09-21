@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #111;
+    margin: 0;
+}
+
+div {
+    color: white;
+}
+
+.circle {
+    border: solid #72b626 10px;
+    height: 6.25rem;
+    width: 6.25rem;
+    display: block;
+    text-align: center;
+    border-radius: 50rem;
+    padding-top: 2rem;
+}
+
+i {
+    font-size: 1rem;
+    color: white;
+    background-color: gray;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50rem;
+    padding: 0.8rem;
+}
+
+input {
+    border-radius: 2rem;
+    border: solid #72b626;
+    background-color: white;
+    width: 30%;
+    height: 3rem;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    padding-left: 1rem;
+}
+
+.message {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.contact-text {
+    padding: 3rem;
+}
+
+.selected {
+    background-color: #72b626;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding-bottom: 1.44rem;
+}
+
+button {
+    background-color: #72b626;
+    color: white;
+    height: 2.8rem;
+    width: 12.5rem;
+    font-size: 1rem;
+    border-radius: 50rem;
+}
+
+.lateral {
+    width: 13%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.content {
+    width: 74%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 13%;
+}
+
+.lateral-menu {
+    width: 13%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 87%;
+    padding-left: 4.5vw;
+    padding-top: 30vh;
+}
+
+.title {
+    font-size: 26px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.subtitle {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.green {
+    color: #72b626;
+    border: none;
+    display: inline;
+}
+
+.gray {
+    color: #bdb9b9;
+    border: none;
+    display: inline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border {
+    border: solid 1px gray;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.index-JC {
+    color: #72b626
+}
+
+.index-main {
+    padding: 30vh 10vw;
+}
+
+.box {
+    overflow: hidden;
+    border: solid 2rem #72b626;
+    ;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+@supports(object-fit: cover) {
+    .box img {
+        height: 100vh;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
